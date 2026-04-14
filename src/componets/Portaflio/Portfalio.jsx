@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Portfalio.css";
 import heroBg from "../../assets/hero.png";
-import { FaTh, FaBuilding, FaDraftingCompass, FaCouch, FaWrench } from "react-icons/fa";
+import { FaTh, FaBuilding, FaDraftingCompass, FaCouch, FaWrench, FaChevronLeft, FaChevronRight, FaComments, FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaPlus } from "react-icons/fa";
 
 const FILTERS = [
   { key: "all",          label: "All Projects",        icon: FaTh },
@@ -114,7 +114,7 @@ export default function Portfolio() {
           ))}
         </div>
         <div className="pf-loadmore">
-          <button className="pf-loadmore__btn">⊕ Load more</button>
+          <button className="pf-loadmore__btn"><FaPlus /> Load more</button>
         </div>
       </section>
 
@@ -137,8 +137,8 @@ export default function Portfolio() {
                 labore voluptate eniml prpident exercitation ullamco alianca.
               </p>
               <div className="pf-testi__nav">
-                <button>←</button>
-                <button>→</button>
+                <button><FaChevronLeft /></button>
+                <button><FaChevronRight /></button>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function Portfolio() {
               construction and installation service.
             </p>
             <div className="pf-footer__socials">
-              <span>💬</span><span>📘</span><span>📸</span><span>🐦</span><span>▶</span>
+              <FaComments /><FaFacebook /><FaInstagram /><FaTwitter /><FaYoutube />
             </div>
           </div>
 
