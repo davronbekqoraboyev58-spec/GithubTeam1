@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headBo {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.head1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.box {
+    width: 70%;
+    height: 450px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head3 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color:  rgb(112, 112, 112);
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.head31 {
+    color: black;
+    font-size: 22px;
+    margin-top: 110px;
+}
+
+.head4 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.carta1 {
+    width: 270px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+.carta p {
+    justify-content: center;
+}
+
+.hr2 {
+    width: 1px;
+    height: 180px;
+    border: 1px solid rgb(234, 231, 231);
+    border-radius: 3px;
+}
+
+.carta2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+    font-size: 18px
+}
+
+.carta3 input{
+   background-color: #F4F5F6;
+   width: 240px;
+   height: 40px;
+   font-family: sans-serif;
+   border: 2px solid grey;
+   border-radius: 4px;
+   font-size: 16px;
+   margin-top: 10px;
+}
+
+.carta4 input{
+   background-color: #F4F5F6;
+   width: 240px;
+   height: 40px;
+   font-family: sans-serif;
+   border: 2px solid grey;
+   border-radius: 4px;
+   font-size: 16px;
+   margin-top: 10px;
+}
+
+.carta5 input{
+   background-color: #F4F5F6;
+   width: 370px;
+   height: 40px;
+   border: 2px solid grey;
+   border-radius: 4px;
+   font-size: 16px;
+   margin-top: 10px;
+}
+ 
+
+.Para{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #424551;
+    margin-top: 40px;
+}
+
+.Send1 {
+    color: white;
+    background-color: #FF5A30;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF5A30;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+.head6 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
